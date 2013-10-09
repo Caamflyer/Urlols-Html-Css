@@ -295,12 +295,12 @@ text-decoration: none;
 background: #007ead;
 }
 
-.submit::-moz-focus-inner {
-border: 0;
-}
-
 .clear{
 clear: both;
+}
+
+.submit::-moz-focus-inner {
+border: 0;
 }
 
 /* End of Navgation Bar Css */

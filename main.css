@@ -82,7 +82,7 @@ height: auto;
 margin-left: -5px;
 }
 
-#NavBarItems ul a {
+#NavBarItems ul a.nav {
 text-decoration: none;
 padding: 10px 20px 10px 20px;
 border-left: 1px solid #fff;
@@ -155,7 +155,7 @@ left: -50px;
 display: block;   
 }
 
-/* Catagories Box */
+/* Categories Box */
 
 #NavBarItems .dropDownBox2 { 
 margin-top: -42px;
@@ -203,6 +203,50 @@ left: -50px;
 #NavBarItems ul li.dropDown:hover .dropDownBox2 {
 display: block;   
 }
+
+/* Content */
+
+#NavBarItems #NavCatItem {
+margin-left: 10px;
+display: inline-block;
+padding: 5px 10px 10px 10px;
+border: 1px solid #000;
+border-radius: 10px;
+}
+
+#NavBarItems #NavCatItem:active {
+background-color: #808080;
+}
+
+#NavBarItems #NavCatItem img {
+width: 75px;
+height: 50px;
+margin-right: auto;
+margin-left: auto;
+display: block;
+border-radius: 100%;
+}
+
+#NavBarItems #NavCatText {
+text-align: center;
+font-size: 12px;
+}
+
+#NavBarItems #NavCatText:hover {
+background-color: #fff;
+}
+
+#NavBarItems #clear {
+color: #000;
+text-decoration: none;
+clear: all;
+}
+
+#NavBarItems #clear:hover {
+opacity: 1;
+background-color: none;
+}
+
 
 /* Search Drop Down */
 
@@ -266,7 +310,7 @@ background-color: #e8e8e8;
 
 #searchBox{
 float: left;
-padding: 5px;
+padding: 6px;
 }
 
 .searchField{
@@ -290,20 +334,20 @@ border: solid 1px #0076a3;
 background: #0095cd;
 }
 
-.submit:hover {
-text-decoration: none;
-background: #007ead;
-}
-
 .clear{
 clear: both;
+}
+
+.submit:active {
+text-decoration: none;
+background: #007ead;
 }
 
 .submit::-moz-focus-inner {
 border: 0;
 }
 
-/* End of Navgation Bar Css */
+/* End of Navigation Bar Css */
 
 #Content {
 margin: 0 auto;
